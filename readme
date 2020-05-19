@@ -1,0 +1,11 @@
+A Mind Is Born
+256 bytes C64 zeropage demo from Linus Akesson Rev. 2017
+converted to CBM2 by vossi 05/2020
+
+assembling: acme amind700.b
+
+amind500.b
+- loaded in bank 1, copied to zp bank 15 and started there
+- only fixed chars - there is no VIC ;)
+- irq runs with psu frequency -> demo runs slower with 50Hz in the EU
+- 6581 filters only one voice - not so nice sound
