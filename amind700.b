@@ -14,8 +14,8 @@ FILTER					= 1 	; 7 = original / filter all 3 voices (only 8580 SID)
 !addr IndirectBank		= $01		; indirect bank register
 !addr IRQ_vector		= $0300		; IRQ_vector
 !addr Screen			= $d000		; Screen RAM address
-!addr SID				= $da00	; SID base address
-!addr CIA				= $dc00	; CIA base address
+!addr SID			= $da00		; SID base address
+!addr CIA			= $dc00		; CIA base address
 !addr KERNAL_IRQ		= $fbe9		; kernal irq jump in from $0300 vector
 !addr HW_RESET			= $fffc		; hardware reset vector
 ; *************************************** BASIC LOADER ********************************************
